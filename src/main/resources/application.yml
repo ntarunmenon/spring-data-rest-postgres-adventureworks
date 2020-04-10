@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: adventureworks_user
+    username: adventureworks_user
+    url: jdbc:postgresql://localhost:7000/adventureworks
+
+logging:
+  level:
+    org.springframework.data: debug
